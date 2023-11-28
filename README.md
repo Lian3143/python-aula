@@ -1,2 +1,2 @@
 # python-pratice
-Meu primeiro repositório em Python. Aprendendo Python e GIT/GITHUB.
+Meu primeiro repositório em Python. Criado enquanto aprendo a programar na linguagem Python. 
