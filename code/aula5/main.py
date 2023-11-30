@@ -5,7 +5,6 @@ def validando_int(pergunta, min, max):
         x = input(pergunta)
         return x
 
-
 def criar_arquivo(nome_arquivo):
     try:
         a = open(nome_arquivo, 'wt+')
@@ -15,7 +14,6 @@ def criar_arquivo(nome_arquivo):
     else:
         print(f'Arquivo {nome_arquivo} criado com sucesso! \n')
 
-
 def existe_arquivo(nome_arquivo):
     try:
         a = open(nome_arquivo, 'rt')
@@ -24,7 +22,6 @@ def existe_arquivo(nome_arquivo):
         return False
     else:
         return True
-
 
 def listar_arquivo(nome_arquivo):
     try:
@@ -36,7 +33,6 @@ def listar_arquivo(nome_arquivo):
     finally:
         a.close()
 
-
 def cadastrar_jogo(nome_arquivo, nome_jogo, nome_videogame):
     try:
         a = open(nome_arquivo, 'at')
@@ -45,7 +41,7 @@ def cadastrar_jogo(nome_arquivo, nome_jogo, nome_videogame):
         print('Erro ao abrir o arquivo.')
     else:
         a.write(f'{nome_jogo}; {nome_videogame} \n')
-    finally:1
+    finally:
         a.close()
 
 
