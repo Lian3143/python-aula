@@ -18,10 +18,17 @@ soma = v1 + v2
 print(f'A soma entre {v1} e {v2} é igual a {soma}')
 
 
-#02 - Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sober ela. 
+#02 - Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ela. 
 
 a = input('Digite qualquer coisa:')
 
 print(type(a))
 
-#
+print('é numério?', a.isnumeric())
+print('é espaço?', a.isspace())
+print('é alpabético?', a.isalpha())
+print('É tudo maiúsculo?', a.isupper())
+print('É tudo minúsculo?', a.islower())
+prin('Está capitalizado?', a.istitle())
+
+print('É tudo alfanumérico?', a.alphanum())
