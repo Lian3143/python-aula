@@ -29,6 +29,6 @@ print('é espaço?', a.isspace())
 print('é alpabético?', a.isalpha())
 print('É tudo maiúsculo?', a.isupper())
 print('É tudo minúsculo?', a.islower())
-prin('Está capitalizado?', a.istitle())
+print('Está capitalizado?', a.istitle())
 
 print('É tudo alfanumérico?', a.alphanum())
