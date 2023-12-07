@@ -82,3 +82,17 @@ salario = float(input('Digite o valor do seu salário: '))
 aumento = salario * 0.05
 
 print(f'O seu salário atual é {salario}.\nCom o aumento de 5%, ficará {aumento}.')
+
+#10 - Escreva um programa que converta  uma temperatura digitada em °C e converta para °F1
+c = float(input('Qual a temperatura em °C? '))
+
+conv = ( ( 9 * c) / 5 ) + 32
+print (f'Se a sua temperatura é de {c:.2f} graus °C, em °F ela será igual a {conv}. ')
+
+#11 - Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado, e a quantidade de dias pelo qual ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 reais por dia e R$0.15 por km rodado.
+
+km = float(input('Quantos KMs foram percorrigos pelo carro? '))  
+dias = int(input('Por quantos dias ele foi alugado? '))
+
+calc = (dias * 60) + (km * 0.15)
+print(f'Após {dias} dia de aluguel e {km}km percorridos, você terá que pagar um total de {calc}')
