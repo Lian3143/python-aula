@@ -46,7 +46,7 @@ print(f'A sua média é { (n1 + n2)/2}!')
 n = float(input('Digite o valor em metros: '))
 
 print(f' {n} metros convertidos para centímetros é igual a {n*100}.\n Já em milímetros é igual a {n*1000} milímetros.')
-#05 - Faça um programa que leia um número intei ro qualquer e mostre a sua tabuada
+#05 - Faça um programa que leia um número inteiro qualquer e mostre a sua tabuada
 num = int(input('Digite um número: '))
 v = 0
 
@@ -61,7 +61,7 @@ calc = qnt/3.27
 
 print('Se você possui {} reais, então você poderá comprar {:.2f} dólares.' .format(qnt, calc ))
 
-#07 - Faça um programa que leia a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintála, sabendo que cada litro de tinta pinta uma área de 2m**2
+#07 - Faça um programa que leia a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2m**2
 
 #08 - Faça um algoritmo que leia o preço de um produto e mostre o novo preço, com 5% de desconto.
 preco = float(input('Digite o valor do produto: '))
@@ -74,4 +74,6 @@ print(f'O valor do produto é {preco} e o desconto aplicado será {desconto}.\n 
 
 #09 - Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.
 salario = float(input('Digite o valor do seu salário: '))
-aumento = int(input('Digite a porcentagem de aumento que será aplicada: '))
+aumento = salario * 0.05
+
+print(f'O seu salário atual é {salario}.\nCom o aumento de 5%, ficará {aumento}.')
