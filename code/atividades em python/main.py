@@ -4,4 +4,4 @@ num = random.randint(1,100)
 print(num)
 
 
-import emoji
+import emoji 
