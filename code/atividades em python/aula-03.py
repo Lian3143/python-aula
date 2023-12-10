@@ -24,4 +24,4 @@ from math import sqrt
 num = int(input('Digite um número: '))
 raiz = sqrt(num)  #função que realiza a raiz quadrada
 
-print(f'A raiz de {num} é igual a {raiz}.')
+print(f'A raiz de {num} é igual a {raiz}.') 
