@@ -33,5 +33,12 @@ import random #Biblioteca RANDOM gera números aleatórios. random.randint gerar
 num = random.randint(1,100)
 print(num)
 
+#ATIVIDADES/DESAFIOS
 
-import emoji 
+#01 - Crie um programa que leia um número Real qualquer e mostre na tela sua porção inteira
+
+#02 - Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo, calcule e mostre o comprimeto da hipotenusa 
+
+#03 - Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo. 
+
+#04 - Um professor quer sortear um dos seus quatro
