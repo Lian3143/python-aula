@@ -1,9 +1,4 @@
-from tkinter import*
-from tkinter import ttk
-root=Tk()
-
-root.filedialog
-root.geometry("1920x1080") #define a dimensão do programa
-root.title('vai se foder eduardo') #definie o titulo
-root.config(bg='lightblue')#define a cor de background
-root.mainloop() #faz com que o programa sempre fique rodando
+#01 - Crie um programa que leia um número Real qualquer e mostre na tela sua porção inteira
+import math
+n = float(input('Digite um número: '))
+print(f'O número digitado foi {n} e a sua parte inteira é {math.trunc(n)}')
