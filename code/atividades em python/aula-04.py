@@ -135,8 +135,19 @@ print(f'O seu nome tem Silva? {b}')
 #Em que posição ela aparece pela primeira vez
 #Em qual posição ela aparece pela última vez. 
 
+a = str(input('Digite uma frase qualquer: ')).strip().upper()
+print(f'A letra "a" aparece {a.count("A")} vezes.')
+print(f'Ela aparece primeiro na posição #{a.find("A")+1}') 
+print(f'E aparece por último na posição #{a.rfind("A")+1}') #o "RFIND" vai fazer com que procure da direita para a esquerda, pegando assim a ultima ocorrência da letra "A"
+
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #06 - Crie um programa que leia o nome completo de uma pessoa, mostrando em seguida o seu primeiro e o seu último nome separadamente. 
 
+a = str(input('Digite o seu nome completo: ')).strip()
+b = a.split()
+ 
+print(f'O seu primeiro nome é: {b[0]}') #vai mostrar apenas o primeiro noeme da pessoa
+
+print(f'O seu último nome é: {b [len(b)-1]}') #vai mostrar o último nome
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
