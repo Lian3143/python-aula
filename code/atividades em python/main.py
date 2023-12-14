@@ -1,14 +1,8 @@
-#ATIVIDADES 
+#05 - Crie um programa que leia uma frase pelo teclado e mostre: 
+#Quantas vezes aparece a letra "A"
+#Em que posição ela aparece pela primeira vez
+#Em qual posição ela aparece pela última vez. 
 
-#01 - Crie um programa que leia o nome completo de uma pessoa e mostre: 
-#O nome com todas as letras maiúsculas
-#O nome com todas minúsculas
-#Quantas letras ao todo(sem considerar espaços)
-#Quantas letras tem o primeiro nome
-
-n = str(input('Digite o seu nome completo: '))
-
-print(f'O nome ficará dessa forma com todas as letras minúsculas:  {n.upper()}')
-
-print(f'O nome ficará dessa forma com todas as letras minúsculas: {n.lower()}')
-
+a = str(input('Digite uma frase qualquer: ')) .strip()
+print(f'A letra "a" aparece {a.count("a")} vezes.')
+print(f'Ela aparece primeiro na posição #{}')

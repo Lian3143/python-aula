@@ -40,7 +40,7 @@ frase.upper() #Ele vai transformar todas as frases em maíusculo.
 
 frase.lower() #Transformará as frases em minúsculas. 
 
-frase.capitalize() #Vai pegar toda a string e vai mandar pra minúsculo, e manterá apenas a primeira letra em maiúscula. 
+frase.capitalize() #Vai pegar toda a string e vai mandar pra minúsculo, e manterá apenas a primeira letra de cada palavra em maiúscula. 
 
 frase.tittle() #vai analisar quantas palavras tem na string
 
@@ -85,26 +85,58 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!""")
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 #ATIVIDADES
-
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #01 - Crie um programa que leia o nome completo de uma pessoa e mostre: 
 #O nome com todas as letras maiúsculas
 #O nome com todas minúsculas
 #Quantas letras ao todo(sem considerar espaços)
 #Quantas letras tem o primeiro nome
 
+a = input('Digite o seu nome completo: ').strip()
+
+print(f'O seu nome todo maiúsculo ficará assim: {a.upper()}') #tudo maiusculo
+print(f'O seu nome todo minusculo ficará assim: {a.lower()}') #tudo minusculo
+print('O seu nome possui {} letras.' .format(len(a) - a.count(' '))) #conta quantas letras tem excluindo os espaços
+print('O primeiro nome tem {} letras.' .format(a.find(' ')))  #conta quantas letras tem na primeira palavra
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #02 - Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados. Ex: 1834. Unidade: 4 | Dezena: 3 | centenas: 8 | Milhar: 1
 
-#03 - Crie um programa que leia o nome de uma cidade e diga se ela começa sim ou não com o nome "Santos"
+a = int(input('Digite um número inteiro de 0 a 9999: '))
 
+m = a // 1000 % 10  #milhar
+c = a // 100 % 10   #centena
+d = a // 10 % 10    #dezena
+u = a // 1 % 10     #unidade
+
+print(f'Milhar: {m}')
+print(f'Centena: {c}')
+print(f'Dezena: {d}')
+print(f'Unidade: {u}')
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#03 - Crie um programa que leia o nome de uma cidade e diga se ela começa sim ou não com o nome "Santo"
+
+a = str(input('Digite o nome da cidade: ')).strip() #Strip irá eliminar todos os espaços desnecessários da string
+print(a[:5].upper() == "SANTO" ) #verificará se o resultado é igual a 'SANTO'
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #04 - Crie um programa que leia o nome de uma pessoa e diga se ela possui "Silva" no nome
 
+a = str(input('Digite o seu nome completo: ')).strip()
+a = a.upper()
+b = 'SILVA' in a
+print(f'O seu nome tem Silva? {b}')
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #05 - Crie um programa que leia uma frase pelo teclado e mostre: 
 #Quantas vezes aparece a letra "A"
 #Em que posição ela aparece pela primeira vez
 #Em qual posição ela aparece pela última vez. 
 
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #06 - Crie um programa que leia o nome completo de uma pessoa, mostrando em seguida o seu primeiro e o seu último nome separadamente. 
 
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
