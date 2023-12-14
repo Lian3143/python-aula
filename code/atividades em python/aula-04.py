@@ -32,7 +32,7 @@ frase.find('deo') #vai procurar dentro da var o que está escrito dentro do par�
 
 frase.find('Android') #ele vai retornar o valor '-1', que significa que o programa não encontrou nenhuma string 'android' (ou seja lá qual for) dentro da váriavel
 
-'Curso' in frase #significa: em(in) frase existe 'curso'? E ele retornará um valor 
+'Curso' in frase #significa: em(in) frase existe 'curso'? E ele retornará um valor True ou False 
 
 frase.replace('Python', 'Android') #Ele irá trocar o item do primeiro parâmetro pelo item do segundo parâmetro. 
 
@@ -60,3 +60,51 @@ frase.split() #vai dividir a string exatamente onde existir espaços. cada palav
 #JUNÇÃO DE STRINGS
 
 '-'.join(frase) #ele vai mudar todos os espaços pelo que for definido dentro das aspas simples 
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#UTILIZAR AS ASPAS TRIPLAS FARÁ COM QUE O TEXTO MANTENHA A FORMATAÇÃO ORIGINAL, ASSIM COMO ESTÁ EXEMPLIFICADO ABAIXO. 
+
+print("""Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!""")
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#ATIVIDADES
+
+#01 - Crie um programa que leia o nome completo de uma pessoa e mostre: 
+#O nome com todas as letras maiúsculas
+#O nome com todas minúsculas
+#Quantas letras ao todo(sem considerar espaços)
+#Quantas letras tem o primeiro nome
+
+#02 - Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados. Ex: 1834. Unidade: 4 | Dezena: 3 | centenas: 8 | Milhar: 1
+
+#03 - Crie um programa que leia o nome de uma cidade e diga se ela começa sim ou não com o nome "Santos"
+
+#04 - Crie um programa que leia o nome de uma pessoa e diga se ela possui "Silva" no nome
+
+#05 - Crie um programa que leia uma frase pelo teclado e mostre: 
+#Quantas vezes aparece a letra "A"
+#Em que posição ela aparece pela primeira vez
+#Em qual posição ela aparece pela última vez. 
+
+#06 - Crie um programa que leia o nome completo de uma pessoa, mostrando em seguida o seu primeiro e o seu último nome separadamente. 
+
+
