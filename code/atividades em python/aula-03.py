@@ -30,7 +30,7 @@ print(f'A raiz de {num} é igual a {raiz}.')
 
 
 import random #Biblioteca RANDOM gera números aleatórios. random.randint gerará um número inteiro de 1 à 10. Enquanto random.random gerará um número float de 0 à 1. 
-num = random.randint(1,100)
+num = random.randint(1,100) #random.randint serve para gerar números aleatórios. basta especificar dentro do parênteses onde você quer que ele comece e onde quer que termine. 
 print(num)
 
 #ATIVIDADES/DESAFIOS

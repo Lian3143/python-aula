@@ -24,12 +24,47 @@ else:
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#ATIVIDADES | DESAFIOS
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #01 - Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e faça o usuário tentar advinhar qual foi o número escolhido. O programa deverá escrever na tela se o aluno acertou ou não. 
+
+from random import randint
+
+random = randint(0,5)
+
+a = int(input('Qual número eu pensei? '))
+if a == random: 
+    print("Você acertou! Parabéns!")
+else: 
+    print('Você errou! Tente novamente!')
+
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#02 - Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80km/h, mostre a mensagem dizendo que ele foi multado. A multa va icustar R$7.00 reais por cada KM acima do limite. 
+#02 - Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80km/h, mostre a mensagem dizendo que ele foi multado. A multa vai custar R$7.00 reais por cada KM acima do limite. 
+
+km = int(input('Qual a velocidade do carro em KM? '))
+
+if km >= 80:
+    print(f'Você está acima do limite de velocidade e será multado! O valor da multa será R${km*7} reais. ')
+else:
+    print(f'Sua velocidade está no limite permitido. Prossiga.')
+
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #03 - Crie um programa que leia um numero inteiro e mostre na tela se ele é par ou ímpar. 
+
+n = int(input('Digite um número inteiro qualquer: '))
+if n % 2 == 0: #o sinal de '%' vai dividir 'n' por '2' e irá pegar o resto da divisão e comparar com 0, se o resultador for True vai imprimir a primeira linha, caso contrario a segunda. 
+    print(f'O número {n} é par!')
+else:
+    print(f'O número {n} é ímpar!')
+
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#04 - Desenvolva um programa que pergunte a distância de uma viagem em Km. Calcule o preço da passagem, cobrando R$0.50 por Km para viagens de até 200km e R$0.45 para viagens mais longas. 
+#04 - Desenvolva um programa que pergunte a distância de uma viagem em Km. Calcule o preço da passagem, cobrando R$0.50 por Km para viagens de até 200km e R$0.45 para viagens mais longas.
+
+km = int(input('Digite quantos KM serão percorridos na viagem: '))
+
+if km <= 200: #vai comparar se km é igual ou menor a 200. 
+    print(f'Ao percorrer {km}KM, você terá que pagar {km*0.50:.2f} na passagem.')
+else:
+    print(f'Ao percorrer {km}KM, você terá que pagar {km*0.45:.2f} na sua passagem.')
+
+print('Boa viagem!')
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #05 - Faça um programa que leia um ano qualquer e mostre se ele é bissexto. 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
