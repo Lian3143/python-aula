@@ -94,7 +94,7 @@ aluno3 = input('Digite o nome do terceiro aluno: ')
 aluno4 = input('Digite o nome do quarto aluno: ')
 
 lista = [aluno1, aluno2, aluno3, aluno4] #transforma o nome dos alunos em uma lista
-shuffle(lista)  # o comando 'SHUFFLE irá embaralhar a lista
+shuffle(lista)  #o comando 'SHUFFLE irá embaralhar a lista
 
 print(f'A lista ordem sorteada foi: {lista}') #fará o print de tudo
 
