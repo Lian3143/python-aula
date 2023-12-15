@@ -67,10 +67,44 @@ else:
 print('Boa viagem!')
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #05 - Faça um programa que leia um ano qualquer e mostre se ele é bissexto. 
+ano = int(input('Digite um ano: '))
+
+if ano % 2 == 0:
+    print('É um ano bissexto!')
+else:
+    print('Não é um ano bissexto!')
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#06 - Faça um programa que leia três números e mostre qual é o maior e qual é o menor. 
+#06 - Faça um programa que leia três números e mostre qual é o maior e qual é o menor.  
+n1 = int(input('Digite um número inteiro qualquer: '))
+n2 = int(input('Digite um número inteiro qualquer: '))
+n3 = int(input('Digite um número inteiro qualquer: '))
+
+#VERIFICANDO O MENOR VALOR
+menor = n1
+if n2 < n1 and n2 < n3:
+    menor = n2 
+if n3 < n1 and n3 <n2:
+    menor = n3
+print(f'O menor valor digitado foi {menor}.')
+
+#VERIFICANDO O MAIOR VALOR
+maior = n1 
+if n2 > n1 and n2 > n3:
+    maior = n2
+if n3 > n1 and n3 > n2:
+    maior = n3
+print(f'O maior valor digitado foi {maior}.')
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#07 - Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. Para salários superiores a R$1.250,00, calcule um aumento de 10%. Para inferiores ou iguais, o aumento é de 15%. 
+#07 - Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. Para salários superiores a R$1.250,00, calcule um aumento de 10%. Para inferiores ou iguais, o aumento é de 15%.
+
+salario = float(input('Qual o valor do seu salário? '))
+
+if salario >= 1250:
+    aumento = salario * 0.10
+    print(f'O seu salário é R${salario:.2f}. Com o aumento de 10%, ele ficará R${salario + aumento:.2f}.')
+else:
+    aumento = (salario * 0.15) + salario
+    print(f'O seu salário atual é R${salario}. Com um aumento de 15%, ele passará a ser R${aumento}.')
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #08 - Desenvolva um programa que leia o comprimento de três rotas e diga ao usuário se elas podem ou não formar um triângulo.
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
