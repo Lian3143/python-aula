@@ -66,26 +66,25 @@ import math
 a = float(input("Digite um ângulo: "))
 
 #OBS: Primeiro será necessário transformar em radiano, e para isso você pode utilizar o parâmetro math.radians(). 
-cos = math.cos(math.radians(a))
-#Retorna cosseno de x.
-seno = math.sin(math.radians(a))
-#Retorna o seno de x.
-tan = math.tan(math.radians(a))
-#Retorna o tangente de x.
+cos = math.cos(math.radians(a)) #Retorna cosseno de x.
+seno = math.sin(math.radians(a)) #Retorna o seno de x.
+tan = math.tan(math.radians(a)) #Retorna o tangente de x.
 print(f'O seno é {seno:.2f}, o cosseno é {cos:.2f} e a tangente é {tan:.2f}.')
-
 
 #04 - Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que o ajude, lendo o nome deles e escrevendo o nome do escolhido.
 from random import choice
-
 aluno1 = input('Digite o nome do primeiro aluno: ')
 aluno2 = input('Digite o nome do segundo aluno: ')
 aluno3 = input('Digite o nome do terceiro aluno: ')
 aluno4 = input('Digite o nome do quarto aluno: ')
-
 print(f'O aluno escolhido para apagar o quadro foi: {choice([aluno1, aluno2, aluno3, aluno4])}') #choice irá escolher um nome dentro da lista e irá mostar ele na tela
-
-
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#OUTRA MANEIRA DE RESOLVER A QUESTÃO
+from random import choice 
+alunos = str(input('Digite o nome dos quatro alunos, separados por espaço e vírgula: ')).strip()
+replace = alunos.replace(',', ' ')
+lista = replace.split()
+print(f'O aluno escolhido para apagar o quadro foi: { choice(lista)}.')
 #05 - O mesmo professor do desafio anterior que sortear a ordem de apresenação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada. 
 from random import shuffle 
 
