@@ -108,3 +108,9 @@ else:
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #08 - Desenvolva um programa que leia o comprimento de três rotas e diga ao usuário se elas podem ou não formar um triângulo.
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+l1 = int(input('Digite o primeiro número: '))
+l2 = int(input('Digite o segundo número: '))
+l3 = int(input('Digite o terceiro número: '))
+
+if l1 + l2 <= l3:
+    print(f'Pode formar um triângulo')
