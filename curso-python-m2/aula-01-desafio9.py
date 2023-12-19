@@ -16,16 +16,19 @@ pag = int(input('Qual será o método de pagamento? '))
 
 if pag == 1: 
     calc = valor - (valor*0.10)
-    print(f'O valor do seu produto é R${valor:.2f}.\nMétodo de pagamento: À vista.\nValor do desconto: 10% \nValor final do produto com desconto:R${calc:.2f}.')
+    print(f'O valor do seu produto é R${valor:.2f}.\nMétodo de pagamento: À vista.\nValor do desconto: 10% \nValor final do produto com desconto: R${calc:.2f}.')
 
 elif pag == 2: 
     calc = valor - (valor*0.05)
-    print(f'O valor do seu produto é R${valor:.2f}. Ao escolher pagar à vista no cartão, se ganha um desconto de 5%. Então, o preço ficará R${calc:.2f}.')
+    print(f'O valor do seu produto é R${valor:.2f}.\nMétodo de pagamento: À vista no cartão.\nValor do desconto: 5% \nValor final do produto com desconto: R${calc:.2f}.')
 
 elif pag == 3: 
-    calc = valor - (valor*0.05)
-    print(f'O valor do seu produto é R${valor:.2f}. Ao escolher o parcelamento em 2x no cartão, não se ganha desconto algum. Então, o preço ficará o mesmo.')
+    calc = valor 
+    print(f'O valor do seu produto é R${valor:.2f}.\nMétodo de pagamento: 2x no cartão.\nValor do desconto: Não há desconto. \nValor final do produto: R${calc:.2f}.')
 
 elif pag == 4: 
-    calc = valor 
-    print(f'O valor do seu produto é R${valor:.2f}. ')
+    calc = valor + (valor*0.20)
+    print(f'O valor do seu produto é R${valor:.2f}.\nMétodo de pagamento: À vista.\nValor dos juros: 10% \nValor final do produto com juros: R${calc:.2f}.')
+
+elif pag > 4:
+    print('Método de pagamento não encontrado. Tente novamente.')

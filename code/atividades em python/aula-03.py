@@ -84,7 +84,7 @@ from random import choice
 alunos = str(input('Digite o nome dos quatro alunos, separados por espaço e vírgula: ')).strip()
 replace = alunos.replace(',', ' ')
 lista = replace.split()
-print(f'O aluno escolhido para apagar o quadro foi: { choice(lista)}.')
+print(f'O aluno escolhido para apagar o quadro foi: {choice(lista)}.')
 #05 - O mesmo professor do desafio anterior que sortear a ordem de apresenação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada. 
 from random import shuffle 
 

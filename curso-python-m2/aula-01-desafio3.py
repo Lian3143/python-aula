@@ -10,7 +10,7 @@ if v1 == v2:
     print('Os dois valores são iguais.')
 
 elif v1 > v2:
-    print(f'O maior valor é: {v1}\nO segundo maior {v2}.')
+    print(f'O maior valor é: {v1}.\nO segundo maior: {v2}.')
 
-elif v2 > v1:
-     print(f'O maior valor é: {v2}\n O segundo maior {v1}.')
+else:
+     print(f'O maior valor é: {v2}.\nO segundo maior: {v1}.')
