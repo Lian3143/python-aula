@@ -15,8 +15,8 @@ else:
 if a == b and b == c and a == c: #triângulo equilátero
     print(f'Como os três lados são iguais, o triângulo em questão se caracteriza como um triângulo equilátero. ')
 
-elif a == b and b == c and a != c: #triângulo isóceles
+elif a == b and b != c: #triângulo isóceles
     print(f'Por possuir apenas um lado diferente, o triângulo em questão se caracteriza como isóceles. ')
  
-elif a != b and b != c and a != c: #triângulo escaleno
+elif a != b and b != c and a != c: #triângulo escaleno 
     print(f'Como os três lados são diferentes, o triângulo é considerado como escaleno. ')
