@@ -1,23 +1,41 @@
-
 from random import choice
 
-escolha_jogador = str(input('Qual será a sua jogada? Pedra, papel ou tesoura? ')).strip().lower() #jogador escolherá a sua jogada
-jogadas = ['pedra', 'papel', 'tesoura'] #lista delimitando as jogadas
-pc_escolha = choice(jogadas) #choice irá escolher um item da lista
+jogadas = ['Pedra!', 'Papel!', 'Tesoura!']
 
-if escolha_jogador not in jogadas:  #vai limitar as escolhas somente aos itens que estão dentro da lista "jogadas"
-    print('Opção inválida.\nTente novamente!')
+pc_jogada = choice(jogadas) #vai aleatoriezar as jogadas do pc utilizando os itens dentro da lista "jogadas"
 
-elif escolha_jogador == pc_escolha: #vai avisar quando for empate!
-    print(f'Você escolheu: {escolha_jogador}. \nA máquina escolheu: {pc_escolha}.')
-    print('Empate!')
+print('-=-|'*5,'Opções para o jogador', '-=-|'*5)
 
-elif ((escolha_jogador == 'pedra' and pc_escolha == 'tesoura') or #vai definir quem é maior e quem é menor
-        (escolha_jogador == 'papel' and pc_escolha == 'pedra') or
-        (escolha_jogador == 'tesoura' and pc_escolha == 'papel')):
-    print(f'Você escolheu: {escolha_jogador}. \nA máquina escolheu: {pc_escolha}')
-    print('Você venceu!')
-else:
-    print(f'Você escolheu: {escolha_jogador}. \nA máquina escolheu: {pc_escolha}')
-    print('Você perdeu!')
+print(' (1) - Pedra\n (2) - Papel\n (3) - Tesoura ')
+print('-=-|'*16,)
 
+player_jogada = int(input('Qual será a sua jogada? '))
+
+if player_jogada == 1: #vai verificar se o jogador escolheu pedra
+    print(f' A sua jogada foi: Pedra!\n A jogada do pc foi: {pc_jogada}')
+    if pc_jogada == 'Pedra!':
+        print(" Empate!")
+    elif pc_jogada == 'Papel!':
+          print(f'Você perdeu! :(')
+    elif pc_jogada == 'Tesoura!':
+        print('Parabéns! Você venceu! :D')
+
+elif player_jogada == 2: #vai verificar se o jogador escolheu papel
+        print(f' A sua jogada foi: Papel!\n A jogada do pc foi: {pc_jogada}')
+        if pc_jogada == 'Pedra!':
+            print(" Parabéns! Você venceu! :D")
+        elif pc_jogada == 'Papel!':
+            print(f' Empate!')
+        elif pc_jogada == 'Tesoura!':
+            print(' Você perdeu! :( ')
+
+elif player_jogada == 3: #vai verificar se o jogador escolheu tesoura
+        print(f' A sua jogada foi: Tesoura!\n A jogada do pc foi: {pc_jogada}')
+        if pc_jogada == 'Pedra!':
+            print(" Você perdeu! Tente novamente! :( ")
+        elif pc_jogada == 'Papel!':
+            print(f' Parabéns! Você venceu! :D')
+        elif pc_jogada == 'Tesoura!':
+            print(' Empate!')
+
+print('Encerrando programa...')

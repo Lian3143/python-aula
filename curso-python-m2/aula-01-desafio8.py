@@ -5,23 +5,19 @@
 #entre 30 e 40 - obesidade
 #acima de 40 - obesidade mórbida
 
-peso = float(input('Qual o seu peso? '))
+#-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-
+peso = float(input('Qual o seu peso? (Kg) '))
 altura = float(input('Qual sua altura? '))
 
-calc = peso/(altura)**2
+calc = peso/(altura**2) #calc de massa corporal 
 
-if calc <= 18.5:
-    print(f'O seu IMC é {calc:.2f}. Você está abaixo do peso.')
 
-elif calc >= 18.5 and calc <= 25:
-    print(f'O seu IMC é {calc:.2f}. Você está no peso ideal.')
+print(f'Seu Imc (índice de massa corporal) é {calc:.1f}. ', end='' )
 
-elif calc >= 25 and calc <= 30:
-    print(f'O seu IMC é {calc}. Você está acima do peso.')
+if calc < 18.5: print(f'Você está abaixo do peso ideal.') 
+elif calc < 25 : print(f'Você está no peso ideal. ')
+elif calc < 30: print(f'Você está acima do peso. ')
+elif calc < 40: print(f'Você está com obesidade. Cuidado! ')
+elif calc > 40: print(f'Você está com obesidade mórbida. Consulte o seu médico imediatamente!')
 
-elif calc >= 30 and calc <= 40:
-    print(f'O seu IMC é {calc}. Você está com obesidade.')
-
-elif calc >= 40:
-    print(f'O seu IMC é {calc}. Você está com obesidade mórbida.')
 
