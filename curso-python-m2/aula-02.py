@@ -38,7 +38,6 @@ print("FIM")
 #mais exemplos
 
 a = 0
-
 for i in range(0,3):
     b = int(input('Digite um número: '))
     a = a + b #pode se fazer assim a+=b, que dá na mesma coisa. 
