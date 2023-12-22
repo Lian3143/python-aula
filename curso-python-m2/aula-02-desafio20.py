@@ -2,8 +2,11 @@
 
 #-=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=-
 #Quantidade de pessoas
+
 pessoas = 5
+
 #Var de apoio
+
 maior_peso = 0
 menor_peso = 0
 
@@ -12,9 +15,9 @@ for i in range(1, pessoas+1):
 
 #verificando o maior e o menor peso
     if peso > peso:
-        maior_peso += peso
+        maior_peso += 1
     elif peso < peso: 
-        menor_peso +- peso
+        menor_peso += 1
 
 #print com o resultado
 print('-=-'*20)

@@ -3,7 +3,7 @@
 from time import sleep #sleep é um contador, que adiciona um timer (definido pelo usuário) para executar o programa.
 
 print('A contagem regressiva para os fogos vai começar!')
-for i in range(1,11):
+for i in range(10,-1,-1):
     sleep(1)
     print(i)
 print('ESTOURO!!! FELIZ ANO NOVO!!!')
