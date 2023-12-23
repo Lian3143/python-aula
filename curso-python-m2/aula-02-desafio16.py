@@ -2,3 +2,12 @@
 
 #-=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=-
 
+p = int(input('Primeiro termo: ')) #primeiro termo
+r = int(input('Razão: ')) #razão
+d = p + (10 - 1) * r  #decimo termo
+
+for i in range(p, d + r, r):
+    print(f'{i}', end=' ')
+    print(' =>', end=' ')
+
+print('Acabou. \nEncerrando programa... ')
