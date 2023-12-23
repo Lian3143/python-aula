@@ -1,9 +1,12 @@
 #03 - Faça um programa que calcule a soma entre todos os números ímpares que são multiplos de três e que se encontram no intervalo de 1 até 500. 
 
 #-=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=-
+somatorio = 0
+contador = 0
 
-for i in range(1, 501, 2): #vai dividir a lista em apenas números ímpares. 
-    if i % 3 == 0: #se o resto da divisão for igual a zero, o número é multiplo de 3. 
-        print(i) #vai imprimir tudo. 
+for i in range(1, 501, 2):
+    if i % 3 == 0:
+        contador += 1 #isso é um contador. Ele vai receber ele mesmo (zero) + a quantidade de vezes que o programa foi executado (ele + 1). 
+        somatorio += i #isso é chamado de acumulador. Ele vai receber o valor que ele já tem (zero)  e vai adicionar mais o valor da variável de apoio (i). 
 
-print('Aqui está todos os números ímpares entre 1 e 500 que são múltiplos de 3.')
+print(f'A soma de todos os {contador} valores é {somatorio}')

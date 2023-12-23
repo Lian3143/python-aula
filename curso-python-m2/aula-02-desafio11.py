@@ -6,4 +6,4 @@ print('A contagem regressiva para os fogos vai começar!')
 for i in range(10,-1,-1):
     sleep(1)
     print(i)
-print('ESTOURO!!! FELIZ ANO NOVO!!!')
+print('BUM!!! FELIZ ANO NOVO!!!')
