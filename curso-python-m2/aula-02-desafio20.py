@@ -14,12 +14,10 @@ for i in range(1, pessoas+1):
     peso = float(input(f'Digite o peso da {i}ª pessoa: '))
 
 #verificando o maior e o menor peso
-    if peso > peso:
-        maior_peso += 1
-    elif peso < peso: 
-        menor_peso += 1
-
+    
+    
+    
 #print com o resultado
-print('-=-'*20)
+
 print(f'O maior peso é: {maior_peso}\nO menor peso é: {menor_peso}')
-print('-=-'*20)
+

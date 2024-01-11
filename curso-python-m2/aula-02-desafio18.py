@@ -3,9 +3,15 @@
 
 #-=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=-
 
-frase = str(input('Digite um políndromo: ')).strip().upper()
+frase = str(input('Digite uma frase: ')).strip().upper()
 
-x = 0
-for i in range(1, 10):
-    print(frase)
-print(i)    
+junto = frase.replace(' ', '')
+inverso = junto[::-1]
+
+print(f"A frase digitada foi: {junto}. E o seu inverso é: {inverso}")
+
+if inverso == junto:
+    print(f'É um políndromo. ')
+else:
+    print('Não é um políndromo. ')
+print('Fim...\nEncerrando programa. ')    
