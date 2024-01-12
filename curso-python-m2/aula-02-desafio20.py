@@ -14,7 +14,7 @@ for i in range(1, pessoas+1):
     peso = float(input(f'Digite o peso da {i}ª pessoa: '))
 
 #verificando o maior e o menor peso
-    
+if 
     
     
 #print com o resultado
