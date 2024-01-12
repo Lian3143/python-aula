@@ -12,11 +12,17 @@ menor_peso = 0
 
 for i in range(1, pessoas+1):
     peso = float(input(f'Digite o peso da {i}ª pessoa: '))
-
 #verificando o maior e o menor peso
-if 
-    
-    
+    if i == 1:
+        maior_peso = peso #vai transformar o primeiro peso em maior peso, e isso facilitará as coisas
+        menor_peso = peso #vai transformar o primeiro peso em menor peso, e isso facilitará as coisas
+
+    else:
+        if peso >= maior_peso:
+            maior_peso = peso
+        if peso <= menor_peso:
+            menor_peso = peso
+
 #print com o resultado
 
 print(f'O maior peso é: {maior_peso}\nO menor peso é: {menor_peso}')

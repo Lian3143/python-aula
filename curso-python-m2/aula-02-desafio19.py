@@ -6,7 +6,7 @@ date = date.today().year
 maioridade = 0
 menoridade = 0
 
-for i in range(1, pessoas_num + 1):
+for i in range(1, 7 + 1):
     ano = int(input(f'Qual o ano de nascimento da pessoa {i}? ' ))
     idade = date - ano
 
@@ -19,3 +19,4 @@ for i in range(1, pessoas_num + 1):
 #RESULTADO
 print(f'Resultado:\n Um total de {maioridade} são maiores de idade.\n Já menores de idade são {menoridade} pessoas.') 
 print(f'Encerrando programa...\nFim do programa. ')
+
