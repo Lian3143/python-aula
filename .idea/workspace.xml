@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07681a30-fd8d-440f-8d4d-87ddc7b03654" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio19.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio20.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafios21.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-02-desafios21.py" afterDir="false" />
-    </list>
+    <list default="true" id="07681a30-fd8d-440f-8d4d-87ddc7b03654" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +150,7 @@
       <updated>1704949958893</updated>
       <workItem from="1704949973359" duration="844000" />
       <workItem from="1705051617943" duration="33000" />
-      <workItem from="1705058460543" duration="4319000" />
+      <workItem from="1705058460543" duration="4417000" />
     </task>
     <servers />
   </component>
@@ -165,6 +160,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_aula$aula_02_desafio19.coverage" NAME="aula-02-desafio19 Coverage Results" MODIFIED="1705059994014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_02_desafio20.coverage" NAME="aula-02-desafio20 Coverage Results" MODIFIED="1705059299817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
-    <SUITE FILE_PATH="coverage/python_aula$aula_02_desafios21.coverage" NAME="aula-02-desafios21 Coverage Results" MODIFIED="1705062640419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
+    <SUITE FILE_PATH="coverage/python_aula$aula_02_desafios21.coverage" NAME="aula-02-desafios21 Coverage Results" MODIFIED="1705062846203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
   </component>
 </project>
