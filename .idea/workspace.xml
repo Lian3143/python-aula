@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07681a30-fd8d-440f-8d4d-87ddc7b03654" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/curso-python-m2/aula-030desafios32.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/curso-python-m2/aula-030desafios33.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/curso-python-m2/aula-030desafios34.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/curso-python-m2/aula-030desafios35.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/curso-python-m2/aula-030desafios36.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios31.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/curso-python-m2/aula-04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios31.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-04.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-04.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-03-desafios29.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-03-desafios30.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-03.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-04.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -200,6 +197,7 @@
       <workItem from="1705268979720" duration="1235000" />
       <workItem from="1705318933108" duration="10895000" />
       <workItem from="1705364817872" duration="1672000" />
+      <workItem from="1705405878805" duration="3407000" />
     </task>
     <servers />
   </component>
