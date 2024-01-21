@@ -5,14 +5,22 @@
 #aleatorizando as jogadas da máquina
 from random import randint
 
-pc_escolha = randint(0, 50)
+pc_escolha = randint(1, 50)
 print(pc_escolha)
 
-#escolhas do jogador
-player_escolha = str(input('Escolha uma jogada (impar ou par): ')).strip().lower()
-player_valor_escolha = int(input(f'Escolha um valor (1-50): '))
 #variáveis de apoio
 cont = 0
+vitorias = 0
+derrotas = 0
+
+#loop central
+while True:
+    # escolhas do jogador
+    player_escolha = str(input('Escolha uma jogada (impar ou par): ')).strip().lower()
+    player_valor_escolha = int(input(f'Escolha um valor (1-50): '))
+
+    #checando vencedor
+
 
 
 

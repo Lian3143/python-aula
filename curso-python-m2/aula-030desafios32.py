@@ -1,19 +1,19 @@
 #2 - Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário.
 # O programa será interrompido quando o número solicitado for negativo.
 
+n1 = 0
 
-cont = 0
-n = 0
-n2 = int(input('Digite um valor para ver sua tabuada: '))
 while True:
-    if n2 < 0:
+    #recebendo um valor
+    n1 = int(input('Digite um valor para ver sua tabuada: '))
+
+    if n1 < 0: #encerrando o programa caso o "flag" seja digitado.
+        print(f'Finalizando programa...')
         break
+    #imprimindo a tabuada
     else:
-        if cont <= 10:
-            print(f'{n2} x {cont} = {n2 * cont}')
-            cont += 1
-        n2 = int(input('Digite um valor para ver sua tabuada: '))
+        for i in range(1,11):
+            print(f'  {n1} x { i } = {n1*i}')
 
-
-
-print('Fim do programa.')
+#print final
+print('Programa finalizado.')

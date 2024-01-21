@@ -7,13 +7,15 @@
 n = 0
 cont = 0
 soma = 0
+flag = 999
 #loop infinito
 
 while True:
-    n = int(input('Digite um valor (para interromper o programa digite "999"): '))
+    n = int(input('Digite um valor (para sair digite "999"): '))
 
     #definindo o "flag" para parada do loop.
-    if n == 999:
+    if n == flag:
+        print(f'Finalizando programa.')
         break
     soma += n #somando os valores entre si.
     cont += 1 #contador.
