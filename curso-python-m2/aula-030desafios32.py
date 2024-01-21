@@ -6,13 +6,14 @@ cont = 0
 n = 0
 n2 = int(input('Digite um valor para ver sua tabuada: '))
 while True:
-    cont += 1
-    if cont < 11:
-        print(f'{n2} x {cont} = {n2 * cont}')
-
-
     if n2 < 0:
         break
+    else:
+        if cont <= 10:
+            print(f'{n2} x {cont} = {n2 * cont}')
+            cont += 1
+        n2 = int(input('Digite um valor para ver sua tabuada: '))
 
 
-print('Fim.')
+
+print('Fim do programa.')
