@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07681a30-fd8d-440f-8d4d-87ddc7b03654" name="Changes" comment="Arquivos com as atividades criados.">
-      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-030desafios32.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-030desafios32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-030desafios33.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-030desafios33.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios31.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios31.py" afterDir="false" />
+    <list default="true" id="07681a30-fd8d-440f-8d4d-87ddc7b03654" name="Changes" comment="jogo de impar ou par">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios28.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios28.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-030desafios34.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-030desafios34.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-030desafios35.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-030desafios35.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,9 @@
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-03.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-030desafios32.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-030desafios33.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-030desafios34.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-030desafios35.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-030desafios36.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-04-desafios31.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-04.py" root0="SKIP_INSPECTION" />
   </component>
@@ -65,40 +70,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.aula-02-desafio19.executor": "Run",
-    "Python.aula-02-desafio20.executor": "Run",
-    "Python.aula-02-desafios21.executor": "Run",
-    "Python.aula-03-desafios22.executor": "Run",
-    "Python.aula-03-desafios23.executor": "Run",
-    "Python.aula-03-desafios24.executor": "Run",
-    "Python.aula-03-desafios25.executor": "Run",
-    "Python.aula-03-desafios26.executor": "Run",
-    "Python.aula-03-desafios27.executor": "Run",
-    "Python.aula-03-desafios28.executor": "Run",
-    "Python.aula-03-desafios29.executor": "Run",
-    "Python.aula-03-desafios30.executor": "Run",
-    "Python.aula-03.executor": "Run",
-    "Python.aula-030desafios32.executor": "Run",
-    "Python.aula-030desafios33.executor": "Run",
-    "Python.aula-04-desafios31.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "mundo-2",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "settings.editor.splitter.proportion": "0.12212943",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.aula-02-desafio12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-02-desafio19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-02-desafio20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-02-desafios21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-03-desafios22.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-03-desafios23.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-03-desafios24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-03-desafios25.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-03-desafios26.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-03-desafios27.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-03-desafios28.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-03-desafios29.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-03-desafios30.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-030desafios32.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-030desafios33.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-030desafios34.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-030desafios35.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula-04-desafios31.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mundo-2&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.12212943&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -131,6 +139,11 @@
       <workItem from="1705490337741" duration="1544000" />
       <workItem from="1705496008009" duration="3469000" />
       <workItem from="1705833825116" duration="3969000" />
+      <workItem from="1705917762070" duration="6996000" />
+      <workItem from="1706093263311" duration="4226000" />
+      <workItem from="1706251365488" duration="933000" />
+      <workItem from="1706771720712" duration="599000" />
+      <workItem from="1707222175654" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="Arquivos com as atividades criados.">
       <option name="closed" value="true" />
@@ -148,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705410364904</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="jogo de impar ou par">
+      <option name="closed" value="true" />
+      <created>1705925906402</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705925906402</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,24 +177,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arquivos com as atividades criados." />
-    <option name="LAST_COMMIT_MESSAGE" value="Arquivos com as atividades criados." />
+    <MESSAGE value="jogo de impar ou par" />
+    <option name="LAST_COMMIT_MESSAGE" value="jogo de impar ou par" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_aula$aula_03.coverage" NAME="aula-03 Coverage Results" MODIFIED="1705068531425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios29.coverage" NAME="aula-03-desafios29 Coverage Results" MODIFIED="1705325359074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
-    <SUITE FILE_PATH="coverage/python_aula$aula_030desafios33.coverage" NAME="aula-030desafios33 Coverage Results" MODIFIED="1705837651414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
+    <SUITE FILE_PATH="coverage/python_aula$aula_030desafios33.coverage" NAME="aula-030desafios33 Coverage Results" MODIFIED="1705925842041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios26.coverage" NAME="aula-03-desafios26 Coverage Results" MODIFIED="1705184299440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios23.coverage" NAME="aula-03-desafios23 Coverage Results" MODIFIED="1705085160276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios30.coverage" NAME="aula-03-desafios30 Coverage Results" MODIFIED="1705358741073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
-    <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios22.coverage" NAME="aula-03-desafios22 Coverage Results" MODIFIED="1705071217479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
+    <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios22.coverage" NAME="aula-03-desafios22 Coverage Results" MODIFIED="1706251484944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_04_desafios31.coverage" NAME="aula-04-desafios31 Coverage Results" MODIFIED="1705834825180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
+    <SUITE FILE_PATH="coverage/python_aula$aula_030desafios35.coverage" NAME="aula-030desafios35 Coverage Results" MODIFIED="1706252217985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_02_desafio20.coverage" NAME="aula-02-desafio20 Coverage Results" MODIFIED="1705059299817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios25.coverage" NAME="aula-03-desafios25 Coverage Results" MODIFIED="1705182020420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_02_desafios21.coverage" NAME="aula-02-desafios21 Coverage Results" MODIFIED="1705066993845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
-    <SUITE FILE_PATH="coverage/python_aula$aula_030desafios32.coverage" NAME="aula-030desafios32 Coverage Results" MODIFIED="1705835815361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
+    <SUITE FILE_PATH="coverage/python_aula$aula_030desafios32.coverage" NAME="aula-030desafios32 Coverage Results" MODIFIED="1706252115526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_02_desafio19.coverage" NAME="aula-02-desafio19 Coverage Results" MODIFIED="1705834117114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios24.coverage" NAME="aula-03-desafios24 Coverage Results" MODIFIED="1705103274366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
-    <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios28.coverage" NAME="aula-03-desafios28 Coverage Results" MODIFIED="1705324483169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
+    <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios28.coverage" NAME="aula-03-desafios28 Coverage Results" MODIFIED="1706251635146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
     <SUITE FILE_PATH="coverage/python_aula$aula_03_desafios27.coverage" NAME="aula-03-desafios27 Coverage Results" MODIFIED="1705322486070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
+    <SUITE FILE_PATH="coverage/python_aula$aula_030desafios34.coverage" NAME="aula-030desafios34 Coverage Results" MODIFIED="1706252180767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
+    <SUITE FILE_PATH="coverage/python_aula$aula_02_desafio12.coverage" NAME="aula-02-desafio12 Coverage Results" MODIFIED="1706252047786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/curso-python-m2" />
   </component>
 </project>
