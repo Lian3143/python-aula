@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07681a30-fd8d-440f-8d4d-87ddc7b03654" name="Changes" comment="jogo de impar ou par">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-030desafios36.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-m2/aula-030desafios36.py" afterDir="false" />
-    </list>
+    <list default="true" id="07681a30-fd8d-440f-8d4d-87ddc7b03654" name="Changes" comment="jogo de impar ou par" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +27,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-01-desafio10.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-02-desafio19.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-02-desafio20.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-02-desafios21.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/curso-python-m2/aula-03-desafios22.py" root0="SKIP_INSPECTION" />
@@ -93,7 +91,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "mundo-2",
+    "git-widget-placeholder": "Merging main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -144,6 +142,7 @@
       <workItem from="1707222175654" duration="610000" />
       <workItem from="1707420605580" duration="1486000" />
       <workItem from="1707997736630" duration="1855000" />
+      <workItem from="1708255184419" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="Arquivos com as atividades criados.">
       <option name="closed" value="true" />
