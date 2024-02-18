@@ -91,7 +91,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -142,7 +142,7 @@
       <workItem from="1707222175654" duration="610000" />
       <workItem from="1707420605580" duration="1486000" />
       <workItem from="1707997736630" duration="1855000" />
-      <workItem from="1708255184419" duration="741000" />
+      <workItem from="1708255184419" duration="744000" />
     </task>
     <task id="LOCAL-00001" summary="Arquivos com as atividades criados.">
       <option name="closed" value="true" />
