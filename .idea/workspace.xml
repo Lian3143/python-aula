@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07681a30-fd8d-440f-8d4d-87ddc7b03654" name="Changes" comment="jogo de impar ou par" />
+    <list default="true" id="07681a30-fd8d-440f-8d4d-87ddc7b03654" name="Changes" comment="jogo de impar ou par">
+      <change afterPath="$PROJECT_DIR$/curso-python-mundo3/aula-01 - Tuplas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/atividades em python/aula-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo1/atividades em python/aula-01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/atividades em python/aula-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo1/atividades em python/aula-02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/atividades em python/aula-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo1/atividades em python/aula-03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/atividades em python/aula-04.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo1/atividades em python/aula-04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/atividades em python/aula-05.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo1/atividades em python/aula-05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01-desafio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01-desafio1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01-desafio10.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01-desafio10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01-desafio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01-desafio2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01-desafio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01-desafio3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01-desafio4.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01-desafio4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01-desafio5.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01-desafio5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01-desafio6.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01-desafio6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01-desafio7.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01-desafio7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01-desafio8.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01-desafio8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01-desafio9.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01-desafio9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-01 - Condicionais.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio11.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafio11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio12.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafio12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio13.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafio13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio14.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafio14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio15.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafio15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio16.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafio16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio17.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafio17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio18.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafio18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio19.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafio19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafio20.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafio20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02-desafios21.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02-desafios21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-02 - For.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios22.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-03-desafios22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios23.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-03-desafios23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios24.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-03-desafios24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios25.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-03-desafios25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios26.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-03-desafios26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios27.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-03-desafios27.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios28.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-03-desafios28.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios29.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-03-desafios29.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03-desafios30.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-03-desafios30.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-03 - While.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios31.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-04-desafios31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios32.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-04-desafios32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios33.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-04-desafios33.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios34.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-04-desafios34.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios35.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-04-desafios35.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-04-desafios36.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-04-desafios36.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/aula-04.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/aula-04 - Break.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-python-m2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso-python-mundo2/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +61,7 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints>
-      <file url="file://$PROJECT_DIR$/curso-python-m2/aula-02-desafios21.py" />
+      <file url="file://$PROJECT_DIR$/curso-python-mundo2/aula-02-desafios21.py" />
     </disable_hints>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -91,7 +140,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "mundo-03",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -143,6 +192,7 @@
       <workItem from="1707420605580" duration="1486000" />
       <workItem from="1707997736630" duration="1855000" />
       <workItem from="1708255184419" duration="744000" />
+      <workItem from="1708256141211" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="Arquivos com as atividades criados.">
       <option name="closed" value="true" />
