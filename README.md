@@ -1,2 +1,2 @@
 # python-pratice
-Meu primeiro repositório em Python. Criado enquanto aprendo a programar na linguagem Python e para algumas atividades da minha faculdade. 
+Repositório dedicado aos meus estudos da linguagem de programação Python e do framework Django. 
